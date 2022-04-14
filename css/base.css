@@ -1,0 +1,25 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --success-color: #2691d9;
+  --height: 40px;
+
+  --nav-height: 41px;
+  --header-height: 174px;
+  --header-with-logo-height: calc(
+    var(var(--header-height) - var(var(--nav-height)))
+  );
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
